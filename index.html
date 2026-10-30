@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SILVER KIT — 어르신 온디바이스 AI 키트</title>
+<meta name="description" content="어르신 전용 온디바이스 AI 키트. 복약·가족 연락·말로 쓰는 일지·행정 안내·지출 리포트. 자녀 또는 지자체가 결제합니다.">
+<meta name="theme-color" content="#0d2a21">
+<link rel="icon" href="https://carusworks.com/assets/brand/mark-g.svg" type="image/svg+xml">
+<meta property="og:type" content="website"><meta property="og:site_name" content="carusworks">
+<meta property="og:title" content="SILVER KIT — 어르신 온디바이스 AI 키트"><meta property="og:description" content="어르신 전용 온디바이스 AI 키트. 복약·가족 연락·말로 쓰는 일지·행정 안내·지출 리포트. 자녀 또는 지자체가 결제합니다.">
+<meta property="og:image" content="https://carusworks.com/assets/brand/og-g3.jpg"><meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&display=swap">
+<link rel="stylesheet" href="https://carusworks.com/assets/cw.css?v=26">
+<link rel="stylesheet" href="assets/p.css?v=1">
+<script>window.KIT=[["복약·병원","약 시간과 병원 일정을 미리 알려 드립니다.","“오늘 저녁 약 먹을 시간 알려 줘”","알림 1건 · 가족에게도 통보"],["가족 연락","말로 통화하고, 온 메시지를 읽어 드립니다.","“딸한테 전화 걸어 줘”","통화 연결 · 메시지 2건 대독"],["말로 쓰는 일지","오늘 기분과 몸 상태를 말로 남깁니다.","“오늘은 좀 어지러웠어”","일지 1건 · 가족 요약"],["행정·금융 안내","민원·금융 절차를 음성으로 안내합니다.","“기초연금 신청 어떻게 해?”","안내 1건 · 필요 서류 목록"],["지출 리포트","생활비를 모아 보호자에게 요약합니다.","“이번 달 얼마 썼어?”","월 지출 요약 · 가족 공유"]];</script>
+</head>
+<body class="prod-smos">
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="top">
+  <div class="wrap">
+    <a class="logo" href="./" aria-label="SILVER KIT 홈"><b style="font:800 20px/1 Pretendard,system-ui;letter-spacing:-.02em;color:#0d2a21">SILVER</b><span class="ptag">KIT</span></a>
+    <button class="burger" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+    <nav class="nav" id="nav" aria-label="주 메뉴">
+      <a href="#try">키트 시연</a><a href="#report">가족 리포트</a><a href="#lineup-s">라인업</a>
+      <a class="cta" href="https://carusworks.com/contact/">도입 상담</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+<section class="hero dark phero">
+  <div class="wrap">
+    <div>
+      <p class="cat">SILVER KIT · 어르신 전용 — 거실 거치형 · 보호자 연결 · 동선 파트너십</p>
+      <h1>말로 하면,<br>알아서 챙깁니다.</h1>
+      <p class="lede">복약·병원 알림, 가족 연락, 말로 쓰는 일지, 행정 안내, 지출 리포트.<br>다섯 모듈을 설치·연동해 거실에 두면,<br>어르신은 <strong>말로만</strong> 쓰고 가족은 <strong>요약</strong>으로 받습니다.</p>
+      <div class="btns"><a class="btn p" href="#try">키트 돌려 보기</a><a class="btn s" href="#report">가족 리포트</a></div>
+    </div>
+    <figure class="tablet" id="try" aria-label="SILVER KIT 시연">
+      <div class="tscr">
+        <div class="dtabs" role="tablist" aria-label="모듈"><button type="button" data-k="0">복약·병원</button><button type="button" data-k="1">가족 연락</button><button type="button" data-k="2">말로 쓰는 일지</button><button type="button" data-k="3">행정·금융</button><button type="button" data-k="4">지출 리포트</button></div>
+        <div class="say"><small>말로 지시</small><span id="kSay"></span></div>
+        <div class="kres" id="kRes"></div>
+        <div class="rfoot"><span id="kDesc"></span><button type="button" id="kBtn">실행</button></div>
+      </div>
+      <figcaption>예시 화면 · 설치·연동이 끝난 상태로 도착합니다</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="facts" aria-label="SILVER KIT 기본 사양">
+  <div class="wrap">
+    <div><p>디바이스</p><strong>거치형 태블릿·미니PC · 고객 소유</strong></div>
+    <div><p>설치 모듈</p><strong>복약 · 가족 연락 · 일지 · 행정 · 지출</strong></div>
+    <div><p>지시</p><strong>말 · 메시지</strong></div>
+    <div><p>결제자</p><strong>자녀 · 지자체</strong></div>
+  </div>
+</section>
+
+<section class="sec core" id="report">
+  <div class="wrap">
+    <div class="head2"><div><p class="label">Same principles</p><h2>가족이 안심하는<br>세 가지.</h2></div><p>어르신이 쓴 만큼 가족에게 요약이 갑니다.</p></div>
+    <div class="pwrap">
+      <div class="ptabs" role="tablist">
+        <button type="button" role="tab" data-p="3" aria-selected="true"><b>01</b><strong>요약으로 보고</strong><span>통화·일지·지출을 매일 짧게 요약해 가족에게 보냅니다.</span></button>
+        <button type="button" role="tab" data-p="2" aria-selected="false"><b>02</b><strong>생활 절차 템플릿</strong><span>복약·병원·민원 절차를 미리 깔아 두고 안내합니다.</span></button>
+        <button type="button" role="tab" data-p="1" aria-selected="false"><b>03</b><strong>말로만</strong><span>화면을 누르지 않아도 됩니다. 말이 입력입니다.</span></button>
+      </div>
+      <div class="ppanes">
+        <figure class="c3v rep pp on" data-p="3" id="smCalc"></figure>
+        <figure class="c3v fab pp" data-p="2"><table><thead><tr><th scope="col">반도체 팹</th><th scope="col">SMOS 가게 운영</th></tr></thead><tbody>
+          <tr><td>레시피</td><td>업종 템플릿 — 발행 주기·메뉴판 규격·응대 문구</td></tr>
+          <tr><td>공정 라우팅</td><td>촬영 → 편집 → 발행 → 응대 → 장부</td></tr>
+          <tr><td>SPC 관리도</td><td>주간 매출·재방문 추이, 떨어지면 알림</td></tr>
+          <tr><td>수율</td><td>예약 확정률·발행 완료율</td></tr>
+          <tr><td>표준원가</td><td>객단가·메뉴별 마진</td></tr>
+        </tbody></table></figure>
+        <figure class="c3v chat pp" data-p="1"><p class="me">이번 주 매출 어땠어?</p><p class="ai"><small>SMOS · 장부</small>지난주보다 6% 늘었어요. 재방문 손님이 줄어서 단골 할인 문자를 보내면 좋겠어요.<span class="bt"><button type="button">보내기</button><button type="button">나중에</button></span></p><p class="me">보내기</p><p class="ai ok"><small>SMOS</small>✓ 단골 42명에게 예약 발송</p><figcaption>예시 화면</figcaption></figure>
+      </div>
+    </div>
+    <p class="appnote">계산식 · 객단가 = 월 매출 ÷ (하루 손님 × 영업일 26일). 증가 매출 = 하루 손님 × 증가 목표 × 영업일 × 객단가 = 월 매출 × 증가 목표 (기존 손님 유지, 객단가 동일 가정). 입력값은 예시입니다.</p>
+  </div>
+</section>
+
+<section class="sec">
+  <div class="wrap">
+    <div class="head2"><div><p class="label">Before you start</p><h2>받기 전에<br>확인하실 것.</h2></div><p>필요한 항목만 펼쳐 보세요.</p></div>
+    <div class="rv">
+      <details><summary><span class="n">01</span><h3>받아서 켜기까지</h3><span class="s">네 걸음</span></summary><div class="rb"><div class="steps four">
+        <div><b>01</b><h3>댁 상태 확인</h3><p>거실 거치·와이파이·보호자 연락처를 확인합니다.</p></div>
+        <div><b>02</b><h3>설치·연동</h3><p>가족 연락처·병원·약 시간을 등록한 상태로 넘깁니다.</p></div>
+        <div><b>03</b><h3>수령·켜기</h3><p>전원을 켜면 다섯 모듈이 바로 동작합니다.</p></div>
+        <div><b>04</b><h3>말로 사용</h3><p>“약 시간 알려 줘”처럼 말하면 됩니다.</p></div>
+      </div></div></details>
+      <details><summary><span class="n">02</span><h3>소유와 비용</h3><span class="s">디바이스는 고객 것</span></summary><div class="rb"><div class="tiers">
+        <div><p class="dk">Device</p><h3>고객 소유</h3><p>태블릿과 계정·채널은 고객 명의입니다.</p></div>
+        <div><p class="dk">Setup</p><h3>초기 설치</h3><p>설치·연동·첫 템플릿 적용까지 한 번에.</p></div>
+        <div><p class="dk">Modules</p><h3>추가 기능</h3><p>필요한 기능은 AS 모듈로 1회 단위 추가.</p></div>
+      </div><p class="pair"><b>월 팀 구독은 없습니다.</b> 대신 설치·연동을 끝낸 상태로 넘기고, 지원 범위는 계약서에 적습니다.</p></div></details>
+      <details><summary><span class="n">03</span><h3>모듈 다섯</h3><span class="s">실버 전용</span></summary><div class="rb"><div class="tiers five">
+        <div><h3>복약·병원</h3><p>약 시간·병원 일정 알림.</p></div>
+        <div><h3>가족 연락</h3><p>말로 통화·메시지 대독.</p></div>
+        <div><h3>말로 쓰는 일지</h3><p>기분·몸 상태 기록.</p></div>
+        <div><h3>행정·금융</h3><p>민원·금융 절차 안내.</p></div>
+        <div><h3>지출 리포트</h3><p>생활비 요약·가족 공유.</p></div>
+      </div><p class="pair">건강 측정 기능은 넣지 않습니다(의료기기 규제 회피).</p></div></details>
+      <details><summary><span class="n">04</span><h3>모듈 다섯 개 자세히</h3><span class="s">설치된 기능</span></summary><div class="rb"><ul class="mods"><li><b>복약·병원</b><span>약 시간과 병원 일정을 알려 드립니다.</span><em class="r-safe">기본 설치</em></li><li><b>가족 연락</b><span>말로 통화하고 메시지를 읽어 드립니다.</span><em class="r-safe">기본 설치</em></li><li><b>말로 쓰는 일지</b><span>기분과 몸 상태를 말로 남깁니다.</span><em class="r-safe">기본 설치</em></li><li><b>행정·금융 안내</b><span>민원·금융 절차를 음성으로 안내합니다.</span><em class="r-safe">기본 설치</em></li><li><b>지출 리포트</b><span>생활비를 모아 보호자에게 요약합니다.</span><em class="r-safe">기본 설치</em></li></ul></div></details>
+    </div>
+  </div>
+</section>
+
+<section class="sec slim lineup" id="lineup-s">
+  <div class="wrap orgw">
+    <div class="orgh"><p class="label">Lineup</p><h2>같은 엔진,<br>세 가지 방식.</h2><p>셋 다 말로 지시하고, 팹 방식으로 운영하고, 돈과 결정으로 보고합니다.</p></div>
+    <div class="org" role="list">
+      <div class="org-r" role="listitem"><a class="onode" href="https://dimas-40.github.io/lfai-aikit/"><b>LFAI AI KIT</b><small>소상공인 온디바이스 키트</small></a></div>
+      <div class="org-c" role="list">
+        <div role="listitem"><a class="onode" href="https://dimas-40.github.io/lfai/"><b>LFAI</b><small>음성 AI 내비게이터 · 온프레미스</small></a></div>
+        <div role="listitem"><a class="onode on" href="./"><b>SILVER KIT</b><small>어르신 온디바이스 키트</small><em>지금 보는 곳</em></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="close">
+  <div class="wrap">
+    <div><h2>부모님 댁부터 시작하세요.</h2><p>댁 상태와 보호자 연락처를 알려 주시면 맞는 모듈과 설치 범위를 안내드립니다. 설치·운영은 동선 파트너가 맡습니다.</p></div>
+    <div class="btns"><a class="btn p" href="https://carusworks.com/contact/">도입 상담</a></div>
+  </div>
+</section>
+</main>
+<footer class="foot term">
+  <div class="wrap">
+    <div class="tw">
+      <div class="tbar"><i></i><i></i><i></i><span>silverkit — zsh</span></div>
+      <div class="tbody">
+        <p class="pr"><b>~/silverkit</b> <em>$</em> tree -L 1</p>
+        <p class="root">silverkit/ <span># 어르신 온디바이스 키트</span></p>
+        <details open><summary><span class="br">├──</span> lineup/</summary><ul><li><span class="br">│   ├──</span> <a href="https://carusworks.com/">carusworks</a> <span># AI 에이전틱 SI</span></li><li><span class="br">│   ├──</span> <a href="https://ncaman.github.io/carusworks-AS/">as</a> <span># 에이전트 모듈 스토어</span></li><li><span class="br">│   └──</span> <a href="https://ncaman.github.io/carusworks-SMOS/">smos</a> <span># 턴키 운영 디바이스</span></li></ul></details>
+        <details><summary><span class="br">├──</span> contact/</summary><ul>
+          <li><span class="br">│   ├──</span> <a href="https://carusworks.com/contact/">inquiry</a> <span># 도입 상담</span></li>
+          <li><span class="br">│   ├──</span> <a href="mailto:contact@carusworks.com">contact@carusworks.com</a></li>
+          <li><span class="br">│   └──</span> <a href="https://phoneparis.kr/lectures/">raw-lab</a> <span># 원본 강의·방법 아카이브(제품 출처)</span></li></ul></details>
+        <details><summary><span class="br">└──</span> legal/</summary><ul>
+          <li><span class="br">    ├──</span> <a href="https://carusworks.com/privacy/">privacy</a> <span># 개인정보처리방침</span></li>
+          <li><span class="br">    └──</span> <a href="https://carusworks.com/terms/">terms</a> <span># 이용약관</span></li></ul></details>
+        <p class="pr last"><b>~/carusworks/smos</b> <em>$</em> <span class="cur" aria-hidden="true"></span></p>
+      </div>
+    </div>
+    <p class="copy">© 2026 carusworks · SMOS</p>
+  </div>
+</footer>
+<div class="stick" id="stick"><a class="btn p" href="https://carusworks.com/contact/">도입 상담</a><a class="btn s" href="#try">직접 해 보기</a></div>
+<script src="https://carusworks.com/assets/cw.js?v=26" defer></script>
+<script src="assets/p.js?v=1" defer></script>
+</body>
+</html>
